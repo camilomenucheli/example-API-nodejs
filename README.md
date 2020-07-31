@@ -8,16 +8,15 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/camilomenucheli/example-API-nodejs?color=brightgreen">
 
   <a href="https://menucheli.dev.br">
-    <img alt="Feito por Camilo Menucheli" src="https://img.shields.io/badge/feito%20por-Camilo Menucheli-%">
+    <img alt="Feito por Camilo Menucheli" src="https://img.shields.io/badge/feito%20por-Camilo%20Menucheli-%">
   </a> 
 </p>
 
 # example-API-nodejs
 Exemplo de API com nodeJS 
 
-<a href="https://nodejs.org">
-  <img alt="Nodejs logo" src="https://nodejs.org/static/images/logo.svg" width="100">
-</a>
+## Requisitos
+* NodeJS >= 12.18.2
 
 ## Setup
 * Copiar `.env.sample`, atualizar as informações e renomear para `.env`.
@@ -45,3 +44,6 @@ Exemplo de API com nodeJS
 
 ## Dev Dependências
 * [nodemon](https://www.npmjs.com/package/nodemon)
+
+## Extensões
+* [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)

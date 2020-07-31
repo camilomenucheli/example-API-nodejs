@@ -1,0 +1,31 @@
+### INDEX
+
+GET http://localhost:8000/api/users?page=1&limit=10
+
+### SHOW
+
+GET http://localhost:8000/api/users/5f245a1fdb2e210f60e87c82
+
+### CREATE
+
+POST http://localhost:8000/api/users
+content-type: application/json
+
+{
+    "name": "Arnold",
+    "filePath": "http://lorempixel.com.br/500/500"
+}
+
+### UPDATE
+
+PUT http://localhost:8000/api/users/5f245a1fdb2e210f60e87c82
+content-type: application/json
+
+{
+    "name": "Adam",
+    "filePath": "http://lorempixel.com.br/500/500"
+}
+
+### DESTROY
+
+DELETE http://localhost:8000/api/users/5f245a1fdb2e210f60e87c82
