@@ -17,9 +17,15 @@ module.exports = {
   },
 
   async create(req, res) {
-    const user = await User.create(req.body)
-
-    return res.json(user)
+    const { name } = req.body
+    console.log(typeof name)
+    if (typeof name === 'string') {
+      const user = await User.create(req.body)
+      
+      return res.json(user)
+    } else {
+      return res.json({error: 'nome tem que ser string'})
+    }
   },
 
   async update(req, res) {
